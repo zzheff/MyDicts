@@ -1,0 +1,12 @@
+文件上传漏洞
+/admin/site/config.html?config_name=uploadFile
+/member/document/create.html
+
+文件写入/读取漏洞
+/admin/template/filelist.html
+
+phar反序列化漏洞
+/admin/site/config.html?config_name=imageWater
+
+日志泄露（日期自己改）
+/runtime/log/202302/02.log
